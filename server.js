@@ -17,7 +17,7 @@ app.get('/puntos', (req, res) => {
 });
 
 app.get('/status/', (req, res) => {
-  res.status(200)send('{"status":"ok"}');
+  res.status(200).send('{"status":"ok"}');
 });
 
 app.listen(PORT, HOST);
